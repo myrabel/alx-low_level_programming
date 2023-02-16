@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description - 'print various sizes in bytes
- * return o on success
+ * Description: 'print various sizes in bytes
+ * Return: 0 on success
  *
  */
 

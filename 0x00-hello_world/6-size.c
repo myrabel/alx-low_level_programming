@@ -11,10 +11,10 @@ int main(void)
 	long long int longlongType;
 
 	/*evaluate size of variable */
-	printf("Size of char: %2d byte(s)\n", size of(charType));
-	printf("Size of int: %2d byte(s)\n", size of(intType));
-	printf("Size of long int: %2d byte(s)\n", size of(longintType));
-	printf("Size of long long int %2d byte(s)\n", size of(longlongType));
-	printf("Size of float: %2d byte(s)\n", size of(floatType));
+	printf("Size of char: %2d byte(s)\n", sizeof(charType));
+	printf("Size of int: %2d byte(s)\n", sizeof(intType));
+	printf("Size of long int: %2d byte(s)\n", sizeof(longintType));
+	printf("Size of long long int %2d byte(s)\n", sizeof(longlongType));
+	printf("Size of float: %2d byte(s)\n", sizeof(floatType));
 	return (0);
 }

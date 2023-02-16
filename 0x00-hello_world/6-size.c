@@ -1,6 +1,12 @@
 #include <stdio.h>
-/*print the size of various types on the computer this code is compiled on */
-int main(size)
+/**
+ * main - entry point
+ * Description - 'print various sizes in bytes
+ * return o on success
+ *
+ */
+
+int main(void)
 {
 	int intType;
 	float floatType;

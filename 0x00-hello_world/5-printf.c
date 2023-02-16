@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- *
+ * main: entry
  * Description: Use printf in this task 
  * Return: 0 for success
- *
  */
 int main(void)
 {

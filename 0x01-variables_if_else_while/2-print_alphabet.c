@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
- * Description: 'Print alphabet in lowercase'
+ * main - Entry point
+ * Description: 'print alphabet in lowercase'
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	for (int x = 'A' ; x <= 'Z' ; x++)
+	char c;
 
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		char small = tolower(x);
-		putchar (small);
-
+		putchar(c);
 	}
+	putchar('\n');
 	return (0);
 }

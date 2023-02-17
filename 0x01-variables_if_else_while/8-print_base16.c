@@ -7,9 +7,13 @@
 int main(void)
 {
 	int hexa;
+	char h;
 
-	for (hexa = 0; hexa <= 15; hexa++)
+	for (hexa = 0; hexa <= 10; hexa++)
 		putchar((hexa % 16) + '0');
+	for (h = 'a'; h <= 'f'; h++)
+		putchar(h);
+
 	putchar('\n');
 	return (0);
 }

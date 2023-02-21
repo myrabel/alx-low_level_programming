@@ -7,7 +7,7 @@ void times_table(void)
 {
 	int n, m;
 
-	for ((n = 0; n <= 9; n++) && (m = 0; m <= 9; m++))
+	if ((n = 0; n <= 9; n++) && (m = 0; m <= 9; m++))
 	{
 		_putchar((n * m) + '0');
 		_putchar('\n');

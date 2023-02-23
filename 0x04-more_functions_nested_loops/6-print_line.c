@@ -20,7 +20,7 @@ void print_line(int n)
 {
 	int count;
 
-	while (count < n && n > 0)
+	while (n > 0 && count < n)
 	{
 		_putchar('_');
 		count++;

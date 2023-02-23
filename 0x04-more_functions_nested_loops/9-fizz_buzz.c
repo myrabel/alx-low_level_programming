@@ -3,8 +3,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * fizz_buzz - print numbers
  * Description: Fizz Buzz
+ * @i: integer
  * Return: Always 0
  */
 
@@ -18,7 +19,19 @@ void fizz_buzz(int i);
 
 int main(void)
 {
-	int i;
+	fizz_buzz(100);
+	return (0);
+}
+
+/**
+ * fizz_buzz - print numbers
+ * Description: Fizz Buzz
+ * @i: integer
+ * Return: Always 0
+ */
+
+void fizz_buzz(int i)
+{
 
 	for (i = 1; i <= 100; i++)
 	{

@@ -4,7 +4,7 @@
  * @c: character
  * Return:  for true
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	int ch;
 

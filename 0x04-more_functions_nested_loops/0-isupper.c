@@ -4,6 +4,15 @@
  * @c: character
  * Return:  for true
  */
+
+int _isupper(int c);
+
+/**
+ * _isupper - checks for uppercase character
+ * @c: character
+ * Return:  for true
+ */
+
 int _isupper(int c)
 {
 	int ch;

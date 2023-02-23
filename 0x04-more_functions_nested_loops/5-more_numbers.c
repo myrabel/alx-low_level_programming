@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * more_numbers: print 10 times
- * Description: print 0 to 14
+ * more_numbers -print 10 times
+ * Description: 'print 0 to 14'
  * Return: Always 0
  */
 
 void more_numbers(void);
 
 /**
- * more_numbers: print 10 times
- * Description: print 0 to 14
+ * more_numbers -print 10 times
+ * Description: 'print 0 to 14'
  * Return: Always 0
  */
 

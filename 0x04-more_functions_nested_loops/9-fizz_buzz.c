@@ -1,5 +1,14 @@
 #include <stdio.h>
 #include <math.h>
+#include "main.h"
+
+/**
+ * main - Entry point
+ * Description: Fizz Buzz
+ * Return: Always 0
+ */
+
+void fizz_buzz(int i);
 
 /**
  * main - Entry point

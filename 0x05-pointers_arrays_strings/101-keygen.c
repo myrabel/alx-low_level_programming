@@ -1,29 +1,23 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * _atoi - int
- * @s: pointer
+ * main - generate random key
+ * Description: keygen generator
  * Return: Always 0
  */
-int _atoi(char *s)
+int main(void)
 {
-	int i;
-	int res = 0;
-	int sig = -1;
-	int brk = 0;
+	int sum;
+	char c;
 
-	for (i = 0; s[i] != '\0'; i++)
+	srand(time(NULL));
+	while (sum <= 2645)
 	{
-		if (s[i] == '-')
-			sig = sig * -1;
-		if (s[i] >= '0' && s[i] <= '9')
-		{
-			res = res * 10;
-			res -= (s[i] - '0');
-			brk = 1;
-		}
-		else if (brk == 1)
-			break;
+		c = rand() % 128;
+		sum += c;
+		putchar(c);
 	}
-	res = sig * res;
-	return (res);
+	putchar(2772 - sum);
+	return (0);
 }

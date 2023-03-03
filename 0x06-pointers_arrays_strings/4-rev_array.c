@@ -2,12 +2,12 @@
 
 /**
  * reverse_array - reverse array contents
- * @a: int 1
+ * @arr: array
  * @n: elements in array
  * Return: reversed array
  */
 
-void reverse_array(int *a, int n)
+void reverse_array(int arr[], int n)
 {
 	int l = 0;
 	int r = n - 1;

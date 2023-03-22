@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * array-iterator - execute a function on each array element
+ * array_iterator - execute a function on each array element
  * @array: array
  * @size: size of array
  * @action: action
